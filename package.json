@@ -1,0 +1,27 @@
+{
+  "name": "craig-portfolio-v2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "dat.gui": "^0.7.9",
+    "gh-pages": "^5.0.0",
+    "vercel": "^31.2.2",
+    "vite": "^4.4.8",
+    "vite-plugin-gltf": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/dat.gui": "^0.7.10",
+    "@vimeo/player": "^2.20.1",
+    "aos": "^3.0.0-beta.6",
+    "gsap": "^3.12.2",
+    "jquery": "^3.7.0",
+    "three": "^0.153.0"
+  }
+}
